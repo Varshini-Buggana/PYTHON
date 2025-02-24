@@ -1,0 +1,10 @@
+# Identifiers
+Identifiers are names 
+
+Rules for identifiers:- 
+- Identifiers can be combination of uppercase and lowercase letters, digits, or an underscore(_)
+  a-z, A-Z, 0-9
+  So myVariable, variable_1, variable_for_print all are valid python Identifiers.
+- An Identifier can not start with digit. So while variable1 is valid, 1variable is not valid.
+- We can't use special symbols like !, #, @, %, $ etc in our Identifier.
+- Identifier can be of any length.
