@@ -1,0 +1,35 @@
+# Type Conversions
+Convert one data type into other data type
+
+Two types :- 
+1) Type Conversion - automatic conversion (By interpreter)
+2) Type Casting    - done manually (By User)
+
+Let's try this
+
+1) a = 2
+   b = 3.2
+   sum = a + b             # 2.0 + 3.2 = 5.2  (int convert to float because float is superior)
+   print(sum) 
+   Output:-   
+      5.2
+
+
+2) a = 1
+   b = "2"
+   sum = a + b
+   print(sum)
+   Output:-
+      TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+  Note:- string to int is not possible by interpreter we have to do it manually.
+         String can not be converted into float.
+         float can be converted into string. 
+
+3) a = 1
+   b = "2"
+   c = int(b)
+   sum = a + c
+   print(sum)
+   Output:- 
+      3
