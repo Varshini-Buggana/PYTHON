@@ -1,0 +1,34 @@
+# Comments
+
+Comments are used to understand the program.
+Comments are not printed, they are not the part of the program code
+They are helpful for better understanding of the program code.
+
+They are 2 types of Comments
+- Single Line Comments
+- Multi Line Comments
+
+Single Line Comments are denoted by hash 
+# Single Line Comment
+Multi Line Comments are denoted by triple quotes 
+"""
+  Multi
+  Line
+  Comments
+"""
+
+Let's try this
+1) a = 4              # a is assigned to 4
+   b = 2              # b is assigned to 2
+   diff = a - b       
+   print(diff)        # display the difference between a and b
+   Output:- 
+     2
+
+2) """ 
+   Write a program
+   To display our name
+   """
+   print("Varshini")
+   Output:- 
+     Varshini
