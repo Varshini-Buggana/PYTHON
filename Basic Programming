@@ -20,3 +20,10 @@
 # It ensures that the Python environment is correctly set up.
 
 Let's start your journey by trying this simple hello world program 🚀
+
+print("Hello World!")
+print("Welcome to python programming!!")
+
+output:- 
+Hello World!
+Welcome to python programming!!
