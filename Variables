@@ -1,0 +1,4 @@
+# Variables 
+A Variable is a name given to a memory location in a program.
+It holds a value.
+In Python, you don’t need to declare the type of a variable explicitly; Python determines the type dynamically.
