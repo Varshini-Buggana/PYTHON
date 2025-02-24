@@ -1,0 +1,21 @@
+# Key Words
+
+KeyWords are reserved words in Python
+They can't be used as a Variable names.
+They are 33 keywords in python
+
+and          elif       if          or
+as           else       import      pass
+assert       except     in          raise
+break        finally    is          return
+class        False      lambda      True
+continue     for        nonlocal    try
+def          from       None        with
+del          global     not         while
+                                    yield
+
+# False, None and True starts with uppercase letters.
+In introduction we learn that Python is a case sensitive language.
+(SQL is not a case-sensitive language)
+Case-sensitive language - uppercase and lowercase letters are different
+ex: apple and Apple are different.
