@@ -1,0 +1,44 @@
+# Introduction to Python
+
+## What is Programming 
+To interact with people we need a language. Like wise to interact with python we need a Language. (i.e. Programming language). 
+Programming is a way for us to tell computers what to do. Computer is a dumb machine and it only does what we tell it to do.
+
+## What is Python?
+- Python is a high-level, interpreted programming language known for its simplicity and readability. It is widely used for web development, data science, automation, artificial intelligence, and more.
+- Python is developed by Guido Van Rossum.
+
+## Features of Python
+- **Easy to Learn**: Python has a simple syntax similar to English.
+- Python is free and Open source programming language
+- **Interpreted Language**: No need for compilation; code runs directly.
+- **Dynamically Typed**: No need to declare variable types explicitly.
+- **Cross-Platform**: Runs on Windows, Mac, and Linux.
+- **Large Community Support**: A vast number of libraries and frameworks available.
+- **Versatile**: Used in various fields like web development, data science, AI, and automation.
+
+## Why Learn Python?
+- Beginner-friendly and widely used in the industry.
+- Has extensive libraries for different applications.
+- Supports object-oriented, procedural, and functional programming.
+- Used by top companies like Google, Netflix, and NASA.
+
+## What is Python used For?
+- Python is used in Data Visualization to create plots and graphical representation
+-	Python helps in data analysis to analyze and understand raw data for insights and trends
+-	It is used in AI and machine learning to simulate human behaviour and to learn from past data without hard coding
+-	It is used to create web applications
+-	It can be used to handle databases
+-	It is used in business and accounting to perform complex mathematical operations along with quantities and quantitative analysis.
+
+
+## How to Install Python
+1. Download Python from the official website: [python.org](https://www.python.org/)
+2. Install it on your system and check the version using:
+   ```bash
+   python --version
+   ```
+
+
+This is just the beginning! 🚀
+
