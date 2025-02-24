@@ -21,9 +21,28 @@
 
 Let's start your journey by trying this simple hello world program 🚀
 
-print("Hello World!")
-print("Welcome to python programming!!")
+📝Let's try this📝
 
-output:- 
-Hello World!
-Welcome to python programming!!
+1)  print("Hello World!")
+    print("Welcome to python programming!!")
+    Output:- 
+    Hello World!
+    Welcome to python programming!!
+
+2) print("I am Varshini")      
+   Output:- 
+   I am Varshini                          # try with your own content. 
+
+# you can also print numbers
+3) print(10)
+   Output:- 
+   10
+
+# you can also try to print numbers using operators. You can multiple operations like addition, subtraction, multiplication, division, etc..
+4) print(2+3)
+   Output:- 
+   5
+
+
+
+
