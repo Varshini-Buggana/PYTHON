@@ -47,5 +47,12 @@ Let's practice
      <class 'float'>              
 # float means decimal values
 # int, float, string are known as DataTypes.
+
+4) a = 2
+   b = 5
+   sum = a + b
+   print(sum)
+   Output:-
+      7
    
   
