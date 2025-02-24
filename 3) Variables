@@ -1,4 +1,33 @@
 # Variables 
 A Variable is a name given to a memory location in a program.
 It holds a value.
+"=" is known as assignment operator. It is used to assign a value to variable.
 In Python, you don’t need to declare the type of a variable explicitly; Python determines the type dynamically.
+Python is dynamically typed, so no need to declare types explicitly. (data types - we discuss it later)
+
+name = "Varshini"
+age = 20
+height = 5.1
+
+Rules for Variables
+- Variable names must start with a letter or underscore (_) and can contain letters, digits, and underscores. 
+- variables can contain digits but the variable can't start with digit.
+- No special characters like #, &, @ etc.. are not allowed.
+
+Let's practice
+
+1) name = "Python"
+   price = 99.99
+   print(name)
+   print(price)
+   Output:- 
+     Python
+     99.99
+
+2) name = "Varshini"
+   age = 20
+   print("My name is",name)
+   print("I am",age,"years old")
+   Output:-
+     My name is Varshini
+     I am 20 years old
