@@ -1,0 +1,38 @@
+# strings
+string is a data type that stores a sequence of characters.
+String is like a sentence
+
+Let's try this
+
+str1 = "This is a String"          # double quotes
+str2 = 'VarshiniBuggana'           # single quote
+str3 = """ This is a String """    # triple quote
+
+
+Why these many kind of quotes?
+If any statement consits of single or double quotes, to avoid that confusion different quotes are used.
+ex:- 
+Program:- 
+  str = "Hello, I'm Varshini"
+  print(str)
+Output:-
+  Hello, I'm Varshini
+
+
+How to print a statement in new line ?
+\n is used to print a statement in new line.
+Program:-
+  str1 = "This is a string. \nThis is in new line"
+  print(str1)
+Output:-
+  This is a string.
+  This is in new line
+
+# Basic Operations
+  - Concatenation
+    print("Hello" + " World")
+    Hello World
+
+  - Length of String
+    str = "Hello"
+    print(len(str))
