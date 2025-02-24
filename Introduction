@@ -16,6 +16,7 @@ Programming is a way for us to tell computers what to do. Computer is a dumb mac
 - **Cross-Platform**: Runs on Windows, Mac, and Linux.
 - **Large Community Support**: A vast number of libraries and frameworks available.
 - **Versatile**: Used in various fields like web development, data science, AI, and automation.
+- **Case-Sensitive**: Upper case and Lower case letters are treated as different
 
 ## Why Learn Python?
 - Beginner-friendly and widely used in the industry.
