@@ -1,0 +1,21 @@
+# Input Statements
+
+input() statements is used to accept values (using keyboard) from user
+input()        # result for input() is always a string
+int(input())   # int
+float(input()) # float
+
+to take input we use input() function
+1) name = input("Enter your name:")
+   print("Welcome", name)
+   Output:-
+      Enter your name: Varshini     # we have to enter a name
+      Welcome Varshini
+
+2)  val = int(input("Enter a value:")  
+    print(val)
+    print(type(val))
+    Output:- 
+        Enter a value: 25
+        25
+        <class 'int'>
