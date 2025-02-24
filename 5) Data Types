@@ -1,0 +1,25 @@
+# Data Types
+
+Python consists of different data types
+- Integers : Positive, negative values including zero
+            a = 10
+- String : Sentences, Words. denoted in single quotes(' '),double quotes(" ") or triple quotes(''' ''')
+            name = "Python"
+- Float : Decimal values
+            height = 5.1
+- Boolean : True and False      # In True and false 'T' and 'F' should be capital letters.
+- None : represent null values. It doesn't contain any values
+
+Let's try this
+
+1) age = 23
+   old = False
+   a = None
+   print(type(age))
+   print(type(old))
+   print(type(a))
+   Output:- 
+      <class 'int'>
+      <class 'bool'>
+      <class 'NoneType'>
+
