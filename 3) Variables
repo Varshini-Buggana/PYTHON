@@ -13,6 +13,7 @@ Rules for Variables
 - Variable names must start with a letter or underscore (_) and can contain letters, digits, and underscores. 
 - variables can contain digits but the variable can't start with digit.
 - No special characters like #, &, @ etc.. are not allowed.
+- variables should be short, simple, meaningful for better understanding.
 
 Let's practice
 
@@ -31,3 +32,20 @@ Let's practice
    Output:-
      My name is Varshini
      I am 20 years old
+
+# type function
+
+3) name = "Varshini"
+   age = 20
+   height = 5.1
+   print(type(name))
+   print(type(age))
+   print(type(height))
+   Output:- 
+     <class 'str'>
+     <class 'int'>
+     <class 'float'>              
+# float means decimal values
+# int, float, string are known as DataTypes.
+   
+  
