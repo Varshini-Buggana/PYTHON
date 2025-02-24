@@ -1,0 +1,22 @@
+# First Simple Basic Python Program - Printing Hello World
+
+# The Hello, World! program is the most basic program used to introduce a programming language.
+# In Python, we can print "Hello, World!" using the print() function:
+
+                print("Hello World!!")
+
+# Explanation:
+# print() is a built-in function in Python that displays the specified message on the screen.
+
+# The text "Hello, World!" is enclosed in double quotes (" "), making it a string. Strings can also be enclosed in single quotes (' ').
+
+# When we run the program, Python executes the print() function and displays:
+
+                   Hello World
+
+# Why is this important?
+# This program helps beginners understand how Python executes code.
+# It introduces the concept of functions (print()), strings ("Hello, World!"), and syntax in Python.
+# It ensures that the Python environment is correctly set up.
+
+Let's start your journey by trying this simple hello world program 🚀
