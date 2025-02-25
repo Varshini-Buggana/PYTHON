@@ -34,5 +34,6 @@ Output:-
     Hello World
 
   - Length of String
-    str = "Hello"
+    str = "Hello World"
     print(len(str))
+    11                      # space also included 
