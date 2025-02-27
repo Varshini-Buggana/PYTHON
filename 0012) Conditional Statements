@@ -1,3 +1,26 @@
+# conditional Statements
+In our daily life there are many conditions like 
+- For licence, age must be greater than 18
+- For passing the exams, marks must be greater than 35
+- For voting right, age must be greater than 18 ............
+To write these coditions in coding we use if, else ....
 
+1) if-elif-else
+    Syntax:- 
+    if(condition 1):
+        Statement 1
+    elif(condition 2)            # elif is the expanded form of else and if
+        Statement 2
+    else:
+        Statement 3
 
+    Program:-
+    age = 21
+    if(age >= 18):
+        print("Eligible")
+    else:
+        print("Not eligible")
+
+    Output:-
+    Eligible
 
