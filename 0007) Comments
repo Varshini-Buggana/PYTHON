@@ -1,12 +1,16 @@
 # Comments
-
-Comments are used to understand the program.
-Comments are not printed, they are not the part of the program code
-They are helpful for better understanding of the program code.
+ 
+Comments can be used to explain Python code.
+Comments are used to understand the code.
+Comments are not printed, they are not the part of the program code. They are placed at the end of a line. Python will ignore them.
+They are helpful for better understanding of the program code, they make the code more readable.
+Python has commenting capability for the purpose of in-code documentation.
 
 They are 2 types of Comments
 - Single Line Comments
 - Multi Line Comments
+
+Comments start with a #, and Python will render the rest of the line as a comment
 
 Single Line Comments are denoted by hash 
 # Single Line Comment
