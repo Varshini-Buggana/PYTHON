@@ -4,6 +4,8 @@ In our daily life there are many conditions like
 - For passing the exams, marks must be greater than 35
 - For voting right, age must be greater than 18 ............
 To write these coditions in coding we use if, else ....
+We also have nested if else. It means if-else conditions inside if condition and else condition.
+
 
 1) if-elif-else
     Syntax:- 
@@ -24,3 +26,11 @@ To write these coditions in coding we use if, else ....
     Output:-
     Eligible
 
+2)  age = 34
+    if(age>18):
+        if(age>=80):
+            print("You cannot druve"))
+        else:
+            print("You can drive")
+    else:
+        print("You can not drive")
