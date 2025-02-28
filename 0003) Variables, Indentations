@@ -1,6 +1,7 @@
 # Variables 
 A Variable is a name given to a memory location in a program.
 It holds a value.
+In Python, variables are created when you assign a value to it.
 "=" is known as assignment operator. It is used to assign a value to variable.
 In Python, you don’t need to declare the type of a variable explicitly; Python determines the type dynamically.
 Python is dynamically typed, so no need to declare types explicitly. (data types - we discuss it later)
@@ -54,5 +55,17 @@ Let's practice
    print(sum)
    Output:-
       7
-   
-  
+
+
+# Indentation
+
+Indentation refers to the spaces at the beginning of a code line.
+Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.
+Python uses indentation to indicate a block of code.
+example:-
+if 5 > 2:
+      print("Five is greater than two!")
+
+Python will give you an error if you skip the indentation:
+The number of spaces is up to you as a programmer, the most common use is four, but it has to be at least one.
+You have to use the same number of spaces in the same block of code, otherwise Python will give you an error
