@@ -7,6 +7,7 @@ Two types :-
 
 Let's try this
 
+Type Conversion
 1) a = 2
    b = 3.2
    sum = a + b             # 2.0 + 3.2 = 5.2  (int convert to float because float is superior)
@@ -14,8 +15,13 @@ Let's try this
    Output:-   
       5.2
 
+Type Casting
+If you want to specify the data type of a variable, this can be done with casting.
+x = str(3)    # x will be '3'
+y = int(3)    # y will be 3
+z = float(3)  # z will be 3.0
 
-2) a = 1
+1) a = 1
    b = "2"
    sum = a + b
    print(sum)
@@ -26,7 +32,8 @@ Let's try this
          String can not be converted into float.
          float can be converted into string. 
 
-3) a = 1
+If this program do like the following program we can't get error.
+   a = 1
    b = "2"
    c = int(b)
    sum = a + c
