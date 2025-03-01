@@ -34,7 +34,9 @@ Let's practice
      My name is Varshini
      I am 20 years old
 
+Get the Type:- 
 # type function
+You can get the data type of a variable with the type() function.
 
 3) name = "Varshini"
    age = 20
