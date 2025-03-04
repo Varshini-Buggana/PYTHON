@@ -1,6 +1,7 @@
 # strings
-string is a data type that stores a sequence of characters.
-String is like a sentence
+- String is a data type that stores a sequence of characters.
+- String is like a sentence
+- Strings are immutable (cannot be changed)
 
 Let's try this
 
