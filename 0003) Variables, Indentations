@@ -19,9 +19,9 @@ Rules for Variables
 Let's practice
 
 1) name = "Python"
-   price = 99.99
+   _price = 99.99
    print(name)
-   print(price)
+   print(_price)
    Output:- 
      Python
      99.99
