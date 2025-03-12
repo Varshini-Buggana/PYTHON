@@ -1,0 +1,93 @@
+# Dictionary in Python
+- Dictionaries are used to store data values in key:value pairs
+- They are unordered, mutable(changeable) & don't allow duplicate keys.
+
+"key" : value
+dict["key"] = value
+
+ex:-  dict = {
+        "name" : "Varshini",
+        "cgpa" : 9.8,
+        "marks" : [98,97,99],
+      }
+      print(dict)
+      print(dict["name"])
+      print(dict["cgpa"])
+      print(dict["marks"])
+O/P:- {'name': 'Varshini', 'cgpa': 9.8, 'marks': [98, 97, 99]}
+      Varshini
+      9.8
+      [98, 97, 99]
+
+Here, we also have nested dictionaries. i.e. dictionary in dictionary
+
+ex:-   student = {
+          "name" : "varshu",
+          "score": {
+              "Maths" : 99,
+              "Phy" : 98,
+              "chem" : 95
+          }
+      }  
+      print(student)
+      print(student["score"]["chem"])
+O/P:- {'name': 'varshu', 'score': {'Maths': 99, 'Phy': 98, 'chem': 95}}
+       95
+
+Dictionary Methods
+- myDict.keys()            # returns all keys
+- myDict.values()          # returns all values
+- myDicy.items()           # returns  all (key,val) pairs as tuples
+- myDict.get("key")        # returns the key according to value
+- myDict.update(newDict)   # inserts the specified items to the dictionaries
+
+Program:-
+
+student = {
+    "name" : "varshu",
+    "score": {
+        "Maths" : 99,
+        "Phy" : 98,
+        "chem" : 95
+    }
+}  
+print(student)
+print(student["score"]["chem"])
+print(student.keys())
+print(list(student.keys()))
+print(student.values())
+print(list(student.values()))
+print(student.items())
+print(list(student.items()))
+print(student["name"])
+print(student.get("name"))
+student.update({"city" : "delhi"})
+print(student)
+new_student = {"Age":20,"message":"hello"}
+student.update(new_student)
+print(student)
+print(student.get("name2"))
+print("Before")
+print(student["name2"])
+print("After")  # this is not printed due to above error, thats why get method is used.
+
+Output:-
+
+{'name': 'varshu', 'score': {'Maths': 99, 'Phy': 98, 'chem': 95}}
+95
+dict_keys(['name', 'score'])
+['name', 'score']
+dict_values(['varshu', {'Maths': 99, 'Phy': 98, 'chem': 95}])
+['varshu', {'Maths': 99, 'Phy': 98, 'chem': 95}]
+dict_items([('name', 'varshu'), ('score', {'Maths': 99, 'Phy': 98, 'chem': 95})])
+[('name', 'varshu'), ('score', {'Maths': 99, 'Phy': 98, 'chem': 95})]
+varshu
+varshu
+ERROR!
+{'name': 'varshu', 'score': {'Maths': 99, 'Phy': 98, 'chem': 95}, 'city': 'delhi'}
+{'name': 'varshu', 'score': {'Maths': 99, 'Phy': 98, 'chem': 95}, 'city': 'delhi', 'Age': 20, 'message': 'hello'}
+None
+Before
+Traceback (most recent call last):
+  File "<main.py>", line 26, in <module>
+KeyError: 'name2'
