@@ -1,0 +1,74 @@
+# Sets
+Set is the collection of the unordered items.
+Each element in the set must be unique and immutable.
+denoted by {}.
+
+Empty set syntax:-
+we all think that set is represented by {}, so collection = {} is the syntax of set. But it is the syntax of dictionary, but not set.
+Here is the syntax of set.
+null_set = set() 
+
+Program:- 
+
+collection = {1, 2, 3, 4}
+print(collection)
+print(type(collection))
+set2 = {1, 2, 2, 2}   # repeated elements stored only once, so it resolved to {1, 2}
+print(set2) 
+set3 = {1, 2, 2, 2, "Hello", "World", "World", 9.3}
+print(set3)          # when you run again and again, the order may change
+print(len(set3))
+
+Output:-
+
+{1, 2, 3, 4}
+<class 'set'>
+{1, 2}
+{1, 2, 'World', 9.3, 'Hello'}
+5
+
+# Set Methods
+
+set.add(el)             # adds an element
+set.remove(el)          # removes an element
+set.clear()             # empties the set
+set.pop()               # removes a random value
+set.union(set2)         # combines both set values & returns new
+set.intersection(set2)  # combines common values & returns new
+
+Example Program:-
+
+collection = set()
+collection.add(1)       # insert element 1 - {1}
+collection.add(2)       # insert element 2 - {1, 2}
+collection.add(2)       # duplicate value
+collection.remove(1)    # remove element 1 - {2}
+collection.add((1,2,3)) # insert (1,2,3)   - {2, (1, 2, 3)}   Here it must be in tuple format, if we use collection.add([1,2,3]), it raises an error - TypeError: unhashable type: 'list'
+collection.add("Welcome")
+print(collection)
+print(len(collection))
+collection.clear()
+print(len(collection))
+setA = {"Hello", "World", "Python", "Coding"}
+print(setA)
+print(setA.pop())      # it does not have an orde, so it delete a random value.
+print(setA.pop())
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+print(set1)
+print(set2)
+print(set1.union(set2))
+print(set1.intersection(set2))
+
+Output:-
+
+{2, (1, 2, 3), 'Welcome'}
+3
+0
+{'Coding', 'World', 'Python', 'Hello'}
+Coding
+World
+{1, 2, 3}
+{3, 4, 5}
+{1, 2, 3, 4, 5}
+{3}
