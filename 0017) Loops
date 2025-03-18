@@ -72,3 +72,39 @@ Print numbers from 1 to 5         |   Print numbers from 5 to 1
 
 
 
+
+* Break & Continue
+Break:- used to terminate the loop when encountered.
+Continue:- terminates execution in the current iteration & continues execution of the loop with the next iteration.
+
+i = 1
+while i <= 5:
+    print(i)
+    if(i == 3):
+        break
+    i += 1
+print("end of loop")
+
+O/P:-
+1
+2
+3
+end of loop
+
+
+i = 1
+while i <= 5:
+    if(i == 3):
+        i += 1
+        continue
+    print(i)
+    i += 1
+print("end of loop")
+
+O/P:-
+1
+2
+4
+5
+end of loop
+
