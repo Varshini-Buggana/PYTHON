@@ -1,0 +1,74 @@
+Loops
+
+- Loops are used to repeat instruction.
+- Loops are of 2 types:-
+  (i) while Loop
+  (ii) for Loop
+
+Why to use Loops?
+If you need to print "hello" 5 times, what you do?
+    print("hello")
+    print("hello")
+    print("hello")
+    print("hello")
+    print("hello")
+
+What about 100 times? what about 10,000 times? we can't do it that many times, right?
+soo, here Loops are used.
+
+While Loops:-
+
+while is a reserved keyword.
+Syntax:-
+    while condition:
+      # some work
+
+checks the condition, do work, again check the condition and again do some work . It repeats again and again until the condition become false.
+This is known as iterations. 
+Now by using while loop how to print "hello" 10,000 times.
+
+    count = 1
+    while count <= 10000:
+        print("hello")
+        count += 1
+
+In the above example "hello" will be printed 10000 times.
+why we use increment(count += 1) here?
+If we don't use increment then the loop will not stop . It will print 'hello'  infinite times. You can try this once
+
+    count = 1
+    while count <= 10:
+        print("hello")
+Output be 'hello' printed infinite times. until the memory 
+
+
+Now print hello with count
+    i = 1
+    while i <= 5:
+        print("hello", i)
+        i += 1
+    O/P:-
+    hello 1
+    hello 2
+    hello 3
+    hello 4
+    hello 5
+
+Print numbers from 1 to 5         |   Print numbers from 5 to 1
+                                  |
+      i = 1                       |       i = 5
+      while i <= 5:               |       while i >= 1:
+          print(i)                |            print(i)
+          i += 1                  |            i -= 1
+      print("Loop ended")         |       print("Loop ended")
+                                  |
+      O/P:-                       |       O/P:-
+      1                           |       5
+      2                           |       4
+      3                           |       3
+      4                           |       2
+      5                           |       1
+      Loop ended                  |       Loop ended
+
+
+
