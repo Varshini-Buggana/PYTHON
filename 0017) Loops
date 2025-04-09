@@ -17,6 +17,7 @@ What about 100 times? what about 10,000 times? we can't do it that many times, r
 soo, here Loops are used.
 
 While Loops:-
+-------------
 
 while is a reserved keyword.
 Syntax:-
@@ -108,3 +109,37 @@ O/P:-
 5
 end of loop
 
+For Loops:-
+-------------
+
+Loops are used for sequential traversing. For traversing list, string, tuples, etc.
+
+for Loops
+for el in list:
+  # some work
+
+for Loop with else
+for el in list:
+  # some work
+else:
+  # work when loop ends
+
+Program:-
+
+str = "apnacollege"
+for char in str:
+    if(char == 'o'):
+        print("o found")
+        break
+    print(char)
+print("END")
+
+OUTPUT:-
+
+a
+p
+n
+a
+c
+o found
+END
