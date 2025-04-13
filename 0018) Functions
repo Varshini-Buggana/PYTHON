@@ -1,0 +1,37 @@
+# Functions in Python
+
+Block of statements that perform a specific task.
+
+syntax:-
+def func_name(param1, param2..):
+  #some work
+  return vol
+func_name(arg1, arg2..) #function call
+
+code:-
+def sum(a,b):
+  sum = a + b
+  return sum
+print(sum(2, 3))
+----------------------------------
+Program:-
+def calc_sum(a, b):
+    sum = a+b
+    print(sum)
+    return sum
+calc_sum(5,10)
+calc_sum(15,10)
+
+O/P:-
+15
+25
+-----------------------------
+program:-
+def calc_sum(a, b):
+  return a + b
+sum = calc_sum(5, 3)
+print(sum)
+
+O/P:-
+8
+------------------------------
